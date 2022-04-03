@@ -1,0 +1,61 @@
+.hero__holder{
+  width: 80vw;
+  height: auto;
+  background-color: #f6f6f6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.hero__list{
+  margin: 0;
+}
+
+.hero__item{
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
+
+  &::marker{
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.hero__btn{
+  border: none;
+  background-color: transparent;
+  color: #888;
+  font-size: 20px;
+  transition: all 0.3s ease;
+
+  &.active{
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+.hero__text{
+  font-size: 20px;
+}
+
+.hero__submit-btn{
+  border: none;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+.hero__back-btn{
+  border: none;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+

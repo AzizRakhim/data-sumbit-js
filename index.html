@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>Document</title>
+    <title>Data Submit Js</title>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -15,6 +15,68 @@
 </head>
 
 <body>
+    <section id="hero" class="hero">
+        <div class="container-fluid">
+            <div class="hero__holder d-flex">
+                <div class="hero__left col-6">
+                    <ol class="hero__list">
+                        <li class="hero__item">
+                            <button class="hero__btn active">
+                                Choose title
+                            </button>
+                        </li>
+                        <li class="hero__item">
+                            <button class="hero__btn">
+                                Choose description  
+                            </button>
+                        </li>
+                        <li class="hero__item">
+                            <button class="hero__btn">
+                                Confirm date
+                            </button>
+                        </li>
+                    </ol>
+                </div>
+                <div class="hero__right col-6">
+                    <div class="hero__container d-block">
+                        <p class="hero__text">
+                            Choose title content
+                        </p>
+                        <button class="hero__submit-btn">
+                            Submit title
+                        </button>
+                    </div>
+                    <div class="hero__container d-none">
+                        <p class="hero__text">
+                            Choose description content
+                        </p>
+                        <button class="hero__back-btn me-3">
+                            Back
+                        </button>
+                        <button class="hero__submit-btn">
+                            Submit description
+                        </button>
+                    </div>
+                    <div class="hero__container d-none">
+                        <p class="hero__text">
+                            Are you happy now?
+                        </p>
+                        <button class="hero__back-btn">
+                            No, go back
+                        </button>
+                        <button class="hero__submit-btn">
+                            Yes, go ahead
+                        </button>
+                    </div>
+                    <div class="hero__container d-none">
+                        <p class="hero__text">
+                            Ok, we're done. Thanks for sending us your date!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
